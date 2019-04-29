@@ -1,0 +1,40 @@
+'''
+smalltalk.py
+
+brief conversation
+
+'''
+
+
+import sys
+
+name = input("Hello, my name is Py. What is your name? ")
+print(f"Hello, {name}! It is a pleasure to make your acquaintance.")
+author = input("Let's take a moment to get to know one another. I am curious, who is your favorite author? ")
+print(f"I love their work.")
+musician = input ("Who is your favorite musician? ")
+print(f"What a coincidence. We both like {author} and {musician}! ")
+
+
+season = input("We are really getting to know one another. Tell me, what is your favorite season? ")
+
+a = "summer" 
+b = "spring"
+c = "fall"
+d = "winter"
+
+
+if season == (a):
+    print(f'Now we are cooking with gas! Summer is definitely number 1 on my list. Let\'s be sure to chat again in the near future. Goodbye for now.')
+
+if season == (b):
+    print(f'Spring is very unpredictable here in New York, but anything is better than winter.')
+
+if season == (c):
+    print(f'Aaah, the calm before the storm. I must say, the autumn foilage is a thing of beauty.')
+    
+if season == (d):
+    print(f'Ewww! We are not as compatible as I once thought. This is where I leave you. Goodbye.')
+
+sys.exit(0)
+
